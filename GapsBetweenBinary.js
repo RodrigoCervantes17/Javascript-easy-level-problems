@@ -9,7 +9,7 @@
 // Write an efficient algorithm for the following assumptions:
 
 // N is an integer within the range [1..2,147,483,647].
-let N= 500
+let N= 323
 function solution(N) {
     let binary = N.toString(2)
     let gap = 0
@@ -23,7 +23,8 @@ function solution(N) {
             gap = 0
         }    
     }
-return max
+return maxGap
 
 }
-solution(N)
+maxgap = solution(N)
+console.log(maxgap)
