@@ -9,4 +9,4 @@ function MissingCha(a) {
     }
     return (expsum-sum)
 }
-console.log(MissingCha([5,3,2,1]));
+console.log(MissingCha([3,5,4,2]));
